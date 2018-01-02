@@ -1,0 +1,112 @@
+
+/*  when screen size is below 50em than all text will be start to resizing.*/
+/* @media screen and(min-width:993px){
+	body,html{
+		height: 100%;
+		width: 100%;
+		padding: 50px;
+		margin: 0px;
+	}} */
+/* @media screen and(max-width:992px){
+
+
+	body,html{
+		height: 100%;
+		width: 100%;
+		padding: 50px;
+		margin: 0px;
+	}
+} */
+
+p{
+	font-size: 2vw;
+}
+h2{
+	font-size: 5vw;
+	font-family: 'Lato', sans-serif;
+}
+h4{
+	font-size: 3vw;
+	font-family: 'Lato', sans-serif;
+}
+
+blockquote{
+	font-size: 12vw;
+}
+}
+
+html {
+	position: relative;
+
+	margin:35px;
+}
+p{
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+}
+
+blockquote{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+/* .outerspace{
+margin: 35px;
+} */
+body {
+	/* Margin bottom by footer height */
+
+	position: relative;
+
+	overflow-x: hidden;
+	color:white;
+
+}
+html, body {
+	height: 100%;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+
+
+
+h1{
+	text-align:center;
+	font-size:60px;
+	margin-bottom:5vh;
+	margin-top:5vh;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+div {
+	display: block;
+}
+
+
+input, textarea {
+	background-color: #666 !important;
+	color: #32beeb !important;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}

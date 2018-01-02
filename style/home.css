@@ -1,0 +1,137 @@
+
+/* @media screen and (min-width: 401px) and (max-width: 1024px) {
+	body,html{
+		height: 100%;
+		width: 100%;
+		padding: 50px;
+		margin: 0px;
+	}
+
+} */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	a{
+		font-size: 16px;
+	}
+.card{
+	background-color:#202020 !important;
+}
+.row {
+
+	background-color:#202020;
+		box-shadow: none !important;
+
+
+}
+.navbar-header{
+	background-color:#202020 !important;
+}
+.tab-content{
+
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+
+}
+}
+.tab-content{
+	margin-top:30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 30px;
+}
+.container-fluid {
+
+	position:fixed;
+	vertical-align: middle;
+	padding:0;
+	    margin:0;
+
+	    top:0;
+	    left:0;
+
+	    width: 100%;
+	    height: 100%;
+
+}
+.row {
+	margin-left: auto;
+	margin-right: auto;
+  padding: 3vw 8vw 8vw 8vw;
+	text-align: justify;
+	/* word-spacing: 2vh; */
+	/* word-spacing:-2px; */
+	/* word-break: break-all; */
+	overflow-y: scroll;
+	height:80vh;
+	background-color:#202020;
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+
+
+}
+.navbar-header{
+
+}
+.card{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+padding: 0px;
+	background-color:#333;
+
+	/* */
+}
+
+
+
+.blockquote {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #0b0e14;
+	color: #fff;
+	transition: 0.8s;
+	-webkit-transition:  0.8s;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 40px;
+	-webkit-margin-end: 40px;
+	background-color: #333;
+}
+
+
+.quote {
+	font-style: italic;
+	color: gray;
+	margin: 20px;
+	text-align: right;
+	transition: 0.8s;
+	-webkit-transition:  0.8s;
+}
+
+
+
+
+.button {
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	padding:1.5vw 5vw 1.5vw 5vw;
+	margin:50px 10px 10px 10px;
+	color:white;
+
+	font-family: 'Raleway', sans-serif;
+
+	text-decoration: none !important;
+
+	overflow: hidden;
+	outline:none;
+	border: 1px solid gray;
+	border-radius: 40px;
+	color:white;
+
+
+}
+#hire:hover{
+	background-color: blue;
+}
+#discover:hover{
+	background-color: blue;
+}
